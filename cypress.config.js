@@ -2,7 +2,11 @@ const { defineConfig } = require('cypress');
 const fs = require('fs')
 
 module.exports = defineConfig({
+<<<<<<< HEAD
    
+=======
+    projectId: 'ivtnpk',
+>>>>>>> 84ff83e7d7878bc0256e3580a2e20126d72bfb7e
     e2e: {
         baseUrl: 'https://conexaoqa.herokuapp.com',
         viewportHeight: 1080,
@@ -12,7 +16,11 @@ module.exports = defineConfig({
         retries: {
             runMode: 2,
             openMode: 0
+<<<<<<< HEAD
         },  
+=======
+        },
+>>>>>>> 84ff83e7d7878bc0256e3580a2e20126d72bfb7e
 
         // eslint-disable-next-line
         setupNodeEvents(on, config) {
