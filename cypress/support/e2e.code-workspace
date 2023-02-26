@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../e2e"
+		},
+		{
+			"path": "../fixtures"
+		},
+		{
+			"path": "../pageObjects"
+		},
+		{
+			"path": "../screenshots"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../videos"
+		}
+	]
+}

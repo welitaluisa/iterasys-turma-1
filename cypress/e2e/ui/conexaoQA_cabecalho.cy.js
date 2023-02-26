@@ -1,6 +1,6 @@
 import LoginPage from '../../pageObjects/LoginPage'
 
-describe('cabeçalho home page', () => {
+describe('cabeçalho home page', { tags: '@regressao' }, () => {
 
     const validarMenu = (seletor, link, nome) => {
         cy.getElement(seletor)
@@ -80,7 +80,7 @@ describe('cabeçalho home page', () => {
     context('logado', () => {
         
         before(() => {
-            
+
             const login = new LoginPage()
 
             login.visitar()
